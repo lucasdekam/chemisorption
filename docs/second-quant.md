@@ -89,7 +89,7 @@ Every time the operator encounters particle $\alpha$ occupying state $j$, i.e., 
 
 This operation is exactly equivalent to what the creation and annihilation operators do. In second quantization, we can therefore replace this logic with
 
-$$\sum_\alpha | i \rangle_\alpha \langle j |_\alpha=c_i^\dagc_j$$
+$$\sum_\alpha | i \rangle_\alpha \langle j |_\alpha=c_i^\dag c_j$$
 
 and we do not care about keeping track of the individual particles $\alpha$ anymore, because we operate on the occupation representation (Fock space). 
 
