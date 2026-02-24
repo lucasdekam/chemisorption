@@ -128,6 +128,7 @@ $$
 E =\langle \Psi_0 | H_\mathrm{ANG} | \Psi_0 \rangle
 $$
 Here $\Psi_0$ is the Slater determinant of single-particle states $|n\sigma\rangle$. To take the expectation of $H_\mathrm{ANG}$ in second-quantization notation, we write 
+
 $$
 \begin{align}
 \langle \Psi_0 | H_\mathrm{ANG} | \Psi_0 \rangle &= \sum_{n,\sigma}  \langle n\sigma | H_\mathrm{ANG} | n\sigma \rangle \\
