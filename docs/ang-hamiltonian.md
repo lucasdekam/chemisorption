@@ -136,8 +136,13 @@ $$
 $$
 
 For example, there are terms like $\langle q\sigma | c^\dag_{k\sigma} c_{a\sigma} |q'\sigma\rangle=\delta_{q'a} \delta_{qk}$. To see this, one may write $c_{a\sigma}=|0\rangle\langle a|$, and $c^\dag_{k\sigma}=|k\rangle\langle0|$. In this way, the term $\varepsilon_a n_{a\sigma}$ for example has expectation 
-$$\sum_{n} \varepsilon_a |\langle n\sigma|a \sigma\rangle|^2$$
+
+$$
+\sum_{n} \varepsilon_a |\langle n\sigma|a \sigma\rangle|^2
+$$
+
 Continuing like this, we can write
+
 $$
 \begin{align}
 E &=\sum_{n,\sigma} \bigg[ \sum_q \varepsilon_q |\langle n\sigma | q\sigma\rangle|^2 \\
