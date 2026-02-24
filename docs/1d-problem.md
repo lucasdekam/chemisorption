@@ -68,6 +68,7 @@ where in the derivation process the following parameters were defined:
 * the surface parameter $z_s=(\alpha-\alpha_s)/\beta$
 * the chemisorption (adbond) parameter $\eta=\beta_a/\beta$.
 
+## Solutions
 Let's consider solutions for $\eta=0$. Then the solutions $\theta_k$ to the eigenvalue problem satisfy either 
 $$
 -z_a=2\cos\theta_k$$ 
