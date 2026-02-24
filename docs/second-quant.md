@@ -49,7 +49,8 @@ These wave functions can be thought of as vectors $[1 1 1 1 ... 0 0 0]$. The spa
 
 Creation operators create an electron; annihilation operators remove one:
 $$c_k^\dag |...,0_k,...\rangle = \theta_k |..., 1_k, ...\rangle$$
-where $0_k$ and $1_k$ denote occupation 0 or 1 for state $k$. Actually $+$ should be a dagger symbol but this doesn't work in Markdown (?).
+where $0_k$ and $1_k$ denote occupation 0 or 1 for state $k$. 
+
 Similarly, annihilation operators remove an electron from a state:
 $$c_k |...,1_k,...\rangle = \theta_k |..., 0_k, ...\rangle$$
 
