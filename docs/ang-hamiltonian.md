@@ -14,7 +14,7 @@ $$W = {1\over 2} \sum_{ijkl} w_{ijkl} c_i^\dag c_j^\dag c_k c_l$$
 By the Pauli principle, the two electrons occupying the adatom state must have opposite spins. Thus we only have the matrix elements
 $$w_{+-+-}=w_{-+-+}=U$$
 so
-$$W={1 \over2} U \left( c_+^\dagc_-^\dagc_-c_+ + c_-^\dag c_+^\dagc_+ c_- \right) $$
+$$W={1 \over2} U \left( c_+^\dag c_-^\dag c_-c_+ + c_-^\dag c_+^\dag c_+ c_- \right) $$
 
 From the anticommutation relations of the creation and annihilation operators for different spins, it turns out that all these creation/annihilation operator pairs can be combined into number operators, so that
 
@@ -24,7 +24,7 @@ This operator simply counts whether the adatom state is doubly occupied, and if 
 
 By adding up all the energy contributions, the Hamiltonian reads
 
-$$H_\mathrm{ANG} = \sum_\sigma \left\{ \left[ \varepsilon_a n_{a\sigma} + \sum_k \left( \varepsilon_k n_{k\sigma} + V_{ak} c_{a\sigma}^\dagc_{k\sigma} + h.c. \right) \right] \right\} + U n_{a+}n_{a,-}$$
+$$H_\mathrm{ANG} = \sum_\sigma \left\{ \left[ \varepsilon_a n_{a\sigma} + \sum_k \left( \varepsilon_k n_{k\sigma} + V_{ak} c_{a\sigma}^\dag c_{k\sigma} + h.c. \right) \right] \right\} + U n_{a+}n_{a,-}$$
 (4.33)
 
 where $h.c.$ implies the Hermitian conjugate of the term before it. In summary, we have:
