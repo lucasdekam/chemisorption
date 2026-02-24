@@ -24,8 +24,7 @@ This operator simply counts whether the adatom state is doubly occupied, and if 
 
 By adding up all the energy contributions, the Hamiltonian reads
 
-$$H_\mathrm{ANG} = \sum_\sigma \left\{ \left[ \varepsilon_a n_{a\sigma} + \sum_k \left( \varepsilon_k n_{k\sigma} + V_{ak} c_{a\sigma}^\dag c_{k\sigma} + h.c. \right) \right] \right\} + U n_{a+}n_{a,-}$$
-(4.33)
+$$H_\mathrm{ANG} = \sum_\sigma \left\{ \left[ \varepsilon_a n_{a\sigma} + \sum_k \left( \varepsilon_k n_{k\sigma} + V_{ak} c_{a\sigma}^\dag c_{k\sigma} + h.c. \right) \right] \right\} + U n_{a+}n_{a,-} \tag{4.33}$$
 
 where $h.c.$ implies the Hermitian conjugate of the term before it. In summary, we have:
 * the self-energy of electrons on the adatom state, $\varepsilon_a$, which is counted for each electron on the adatom;
@@ -146,6 +145,7 @@ E &=\sum_{n,\sigma} \bigg[ \sum_q \varepsilon_q |\langle n\sigma | q\sigma\rangl
 &+U\langle n_{a-}\rangle \langle n_{a+} \rangle
 \end{align}
 $$
+
 which (wow!) differs from $\sum_{m\sigma}\varepsilon_{m\sigma}$ by a term $U\langle n_{a,-\sigma}\rangle \langle n_{a\sigma} \rangle$.
 
 In conclusion,
