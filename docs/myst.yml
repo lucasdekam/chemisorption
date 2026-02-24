@@ -12,6 +12,8 @@ project:
     - file: index.md
     - file: 1d-problem.md
     - file: pn-state-existence.ipynb
+    - file: second-quant.md 
+    - file: ang-hamiltonian.md
     
 site:
   template: book-theme
